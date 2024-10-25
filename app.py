@@ -206,7 +206,7 @@ def page_one():
         st.subheader("Portfolio Values In Different Stress Periods")
         st.markdown("By doing a K-means cluster over the dataset, we were able to identify regimes:", unsafe_allow_html=True)
 
-        image_path = f"/Users/rishikumra/Downloads/Projects/BoA/data/clusters.png"
+        image_path = f"data/clusters.png"
         try:
             image = Image.open(image_path)
             new_image = image.resize((650, 350))
@@ -238,7 +238,7 @@ def page_one():
     # Left-Tail Event Images
     with col1:
         st.markdown("<h3 class='subheader'>Left-Tail Event 1</h3>", unsafe_allow_html=True)
-        image_path = f"/Users/rishikumra/Downloads/Projects/BoA/data/left_tail_event1.jpg"
+        image_path = f"data/left_tail_event1.jpg"
         try:
             image = Image.open(image_path)
             new_image = image.resize((650, 450))
@@ -248,7 +248,7 @@ def page_one():
 
     with col2:
         st.markdown("<h3 class='subheader'>Left-Tail Event 2</h3>", unsafe_allow_html=True)
-        image_path = f"/Users/rishikumra/Downloads/Projects/BoA/data/left_tail_event2.jpg"
+        image_path = f"data/left_tail_event2.jpg"
         try:
             image = Image.open(image_path)
             new_image = image.resize((650, 450))
@@ -259,7 +259,7 @@ def page_one():
     # Right-Tail Event Images
     with col3:
         st.markdown("<h3 class='subheader'>Right-Tail Event 1</h3>", unsafe_allow_html=True)
-        image_path = f"/Users/rishikumra/Downloads/Projects/BoA/data/right_tail_event2.jpg"
+        image_path = f"data/right_tail_event2.jpg"
         try:
             image = Image.open(image_path)
             new_image = image.resize((650, 450))
@@ -269,7 +269,7 @@ def page_one():
 
     with col4:
         st.markdown("<h3 class='subheader'>Right-Tail Event 2</h3>", unsafe_allow_html=True)
-        image_path = f"/Users/rishikumra/Downloads/Projects/BoA/data/right_tail_event1.jpg"
+        image_path = f"data/right_tail_event1.jpg"
         try:
             image = Image.open(image_path)
             new_image = image.resize((650, 450))
