@@ -75,7 +75,7 @@ def main():
 #         st.header("Portfolio Values In Different Stress Periods")
 #         st.markdown("<h3 style='font-size: 18px;'> By doing a K-means cluster over the dataset, we were able to identify regimes: </h3>", unsafe_allow_html=True)
         
-#         image_path = f"/Users/rishikumra/Downloads/Projects/BoA/data/clusters.png"
+#         image_path = f"data/clusters.png"
 #         try:
 #             image = Image.open(image_path)
 #             new_image = image.resize((650, 450))
@@ -101,7 +101,7 @@ def main():
 
 #     with col1:
 #         st.markdown("<h3 style='font-size: 18px;'>Left-Tail</h3>", unsafe_allow_html=True)
-#         image_path = f"/Users/rishikumra/Downloads/Projects/BoA/data/left_tail_event1.jpg"
+#         image_path = f"data/left_tail_event1.jpg"
 #         try:
 #             image = Image.open(image_path)
 #             new_image = image.resize((650, 450))
@@ -110,7 +110,7 @@ def main():
 #             st.write(f"No plot found for ")
 #     with col3:
 #         st.markdown("<h3 style='font-size: 18px;'>Right-Tail</h3>", unsafe_allow_html=True)
-#         image_path = f"/Users/rishikumra/Downloads/Projects/BoA/data/right_tail_event2.jpg"
+#         image_path = f"data/right_tail_event2.jpg"
 #         try:
 #             image = Image.open(image_path)
 #             new_image = image.resize((650, 450))
@@ -120,7 +120,7 @@ def main():
 
 #     with col2:
 #         st.markdown("<h3 style='font-size: 18px;'>Left-Tail</h3>", unsafe_allow_html=True)
-#         image_path = f"/Users/rishikumra/Downloads/Projects/BoA/data/left_tail_event2.jpg"
+#         image_path = f"data/left_tail_event2.jpg"
 #         try:
 #             image = Image.open(image_path)
 #             new_image = image.resize((650, 450))
@@ -129,7 +129,7 @@ def main():
 #             st.write(f"No plot found for ")
 #     with col4:
 #         st.markdown("<h3 style='font-size: 18px;'>Right-Tail</h3>", unsafe_allow_html=True)
-#         image_path = f"/Users/rishikumra/Downloads/Projects/BoA/data/right_tail_event1.jpg"
+#         image_path = f"data/right_tail_event1.jpg"
 #         try:
 #             image = Image.open(image_path)
 #             new_image = image.resize((650, 450))
